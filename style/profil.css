@@ -39,12 +39,16 @@ footer p {
     margin: 0;
 }
 
+
+/* ***** ***** Partie neutre ***** ***** */
+
 /* Pour les liens */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-a:hover {
+a:hover,
+.moi a:hover{
     color: #7b00ff;
 }
 
@@ -57,16 +61,107 @@ article {
     margin: 3% auto;
 }
 
-.profil {
-
+article:first-of-type > div {
+    margin: 2% auto;
 }
 
+.border {
+    padding: 2%;
+
+    border: 2px black solid;
+    border-radius: 25px;
+    background: #ededed;
+}
+
+
+/* ***** ***** Premier block : "photo" ***** ***** */
+.base {
+    display: flex;
+    justify-content: space-between;
+    max-width: 750px;
+}
+
+.moi {
+    margin-right: 3%;
+}
+
+.moi div:first-of-type {
+    margin-left: 5%;
+}
+
+.moi h1 {
+    margin-bottom: 1%;
+    font-size: 30px;
+}
+
+.moi h5 {
+    margin-top: 0;
+}
+
+.moi a {
+    color: black;
+}
+
+.photo {
+    padding: 1% 3%;
+    border-left: 1px black solid;
+}
+
+.photo img {
+    height: 225px;
+    width: 180px;
+}
+
+
+/* ***** ***** Block : "cursus" ***** ***** */
+.cursus {
+    max-width: 850px;
+}
+
+
+/* ***** *****  Block : "skill" ***** ***** */
+.skill {
+    max-width: 1000px;
+}
+
+.skill > div {
+    display: flex;
+    text-align: justify;
+}
+
+.skill > div > div {
+    min-width: 100px;
+}
+
+.borderSkill {
+    margin-right: 2%;
+    padding-right: 2%;
+    border-right: 1px black solid;
+}
+
+
+/* ***** *****  Block : "langue_activite" ***** ***** */
+.langue_activite {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+.langue_activite > div {
+    margin: 0 auto;
+    width: 400px;
+}
+
+/* ***** ***** Dernier block : CV ***** ***** */
 .lienCV {
     padding: 2% 0;
+
     display: flex;
+    max-width: 1000px;
 
     border: 2px #000000 solid;
     border-radius: 10px;
+    background: #ededed;
 }
 
 .lienCV div {
