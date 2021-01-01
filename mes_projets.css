@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+
+    background: #ffffff;
+}
+
+header {
+    padding: 2% 0;
+
+    height: 3vh;
+    width: 100%;
+
+    color: #ffffff;
+    background: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header div {
+    margin: 0 3%;
+}
+
+footer {
+    height: 25px;
+    width: 100%;
+
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Pour les liens */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover,
+div.lien p a:hover{
+    color: #7b00ff;
+}
+
+section {
+    padding: 0 2%;
+}
+
+div.projet {
+    margin: 3% auto;
+    padding: 1%;
+
+    max-width: 750px;
+
+    border: 2px #000000 solid;
+    border-radius: 25px;
+}
+
+div.projet > p {
+    margin: 0 1%;
+    text-align: justify;
+}
+
+div.lien {
+    margin: 2%;
+    padding: 2%;
+
+    border: 1px #000000 solid;
+    border-radius: 5px;
+}
+
+div.lien p {
+    margin: 0;
+}
+
+div.lien a {
+    color: #000000;
+    text-decoration: underline;
+}
