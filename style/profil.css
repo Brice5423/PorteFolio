@@ -192,7 +192,7 @@ article:first-of-type > div {
 body { /* #ee7752, #e73c7e, #23a6d5, #23d5ab */
     background: linear-gradient(-45deg, #9d2c54, #742c9d, #2c739d, #2c9d3b);
     background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
+    animation: gradient 40s ease infinite;
 }
 
 @keyframes gradient {

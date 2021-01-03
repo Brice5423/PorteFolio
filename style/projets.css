@@ -64,13 +64,13 @@ section {
 }
 
 .projet > p {
-    margin: 0 1%;
+    margin: 0 1% 2% 1%;
     text-align: justify;
 }
 
 .lien {
     margin: 2%;
-    padding: 2%;
+    padding: 2% 2% 0 2%;
 
     border-top: 1px #202020 solid;
 }
@@ -94,7 +94,7 @@ section {
 body {
     background: linear-gradient(-45deg, #9d2c54, #742c9d, #2c739d, #2c9d3b);
     background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
+    animation: gradient 40s ease infinite;
 }
 
 
