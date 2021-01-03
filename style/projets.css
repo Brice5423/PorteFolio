@@ -16,7 +16,7 @@ header {
     width: 100%;
 
     color: #ffffff;
-    background: #000000;
+    background: #202020;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -31,7 +31,7 @@ footer {
     width: 100%;
 
     text-align: center;
-    background: #000000;
+    background: #202020;
     color: #ffffff;
 }
 
@@ -44,11 +44,9 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-a:hover,
-.lien p a:hover{
-    color: #7b00ff;
+a:hover {
+    color: #2C739D;
 }
-
 
 section {
     margin: 0 2%;
@@ -60,9 +58,9 @@ section {
 
     max-width: 750px;
 
-    border: 2px #000000 solid;
+    border: 2px #202020 solid;
     border-radius: 25px;
-    background: #ededed;
+    background: #DDDDDD;
 }
 
 .projet > p {
@@ -74,8 +72,7 @@ section {
     margin: 2%;
     padding: 2%;
 
-    border: 1px #000000 solid;
-    border-radius: 5px;
+    border-top: 1px #202020 solid;
 }
 
 .lien p {
@@ -86,13 +83,16 @@ section {
     color: #000000;
     text-decoration: underline;
 }
+.lien p a:hover {
+    color: #742C9D;
+}
 
 
 /* ---------------------------------------------------------------------------------------------- */
 /* C'est pour le fond animé */
 
 body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #9d2c54, #742c9d, #2c739d, #2c9d3b);
     background-size: 400% 400%;
     animation: gradient 20s ease infinite;
 }
